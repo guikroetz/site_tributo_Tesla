@@ -1,0 +1,83 @@
+body{
+    pborder: 5px solid red;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+header{
+    pborder: 5px solid;
+}
+
+.container{
+    pborder: 5px solid red;
+    background-color: #eee;
+    width: 95%;
+    margin: auto auto 23px;
+}
+
+.titulos{
+    pborder: 5px solid blue;
+    text-align: center;
+    font-family: Klee, sans-serif;
+}
+
+.h1-tesla{
+    font-size: 4em;
+    pborder: 1px solid;
+}
+.h2-ano{
+    pborder: 1px solid;
+    margin: -40px 0 0 0;
+}
+
+.secao1{
+    width: 90%;
+    margin: auto;
+}
+
+.texto-inicial{
+    text-align: justify;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    padding: 0 10px 0 10px;
+}
+
+.hero{
+    border: 1px solid #bbb;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.foto__tesla{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    width: 50%;
+    /*outra forma de centralizar a imagem eh apenas utilizar text-align: center,
+    desde que a imagem esteja dentro de um div*/
+}
+.legenda{
+    position: relative;
+    text-align: center;
+    pborder: 1px solid #bbb;
+    background-color: #ddd;
+    padding: 1px;
+    border-radius: 7px;
+    margin: 0 5px 5px 5px;
+}
+
+.linhaTempo{
+    text-align: center;
+}
+
+.topicos{
+    line-height: 1.4;
+}
+
+.cit_wiki {
+    text-align: center;
+    pborder: 1px solid;
+}
+
+.coded-by{
+
+}
