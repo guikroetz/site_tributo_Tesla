@@ -1,83 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /*tira a margem toda*/
+    padding: 0;
+}
+
 body{
-    pborder: 5px solid red;
-    font-family: 'Noto Sans Display', sans-serif;
+    pborder: 1px solid;
 }
 
 header{
-    pborder: 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    pposition: fixed;
 }
 
-.container{
-    pborder: 5px solid red;
-    background-color: #eee;
-    width: 95%;
-    margin: auto auto 23px;
+.div_header{
+    position: fixed;
+    width: 100%;
 }
 
-.titulos{
-    pborder: 5px solid blue;
-    text-align: center;
-    font-family: Klee, sans-serif;
+h1{
+    color: #0088a9;
 }
 
-.h1-tesla{
-    font-size: 4em;
-    pborder: 1px solid;
-}
-.h2-ano{
-    pborder: 1px solid;
-    margin: -40px 0 0 0;
+.nav_links{
+    plist-style: none;
 }
 
-.secao1{
-    width: 90%;
-    margin: auto;
+.nav_links li {
+    display: inline; /*deixa lado a lado no navbar*/
+    padding: 0 20px;
 }
 
-.texto-inicial{
-    text-align: justify;
-    border: 1px solid #bbb;
-    border-radius: 7px;
-    padding: 0 10px 0 10px;
+.nav_links a{
+    color: #edf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.nav_links a:hover{
+    color: #0088a9;
 }
 
-.hero{
-    border: 1px solid #bbb;
-    margin-top: 20px;
-    border-radius: 7px;
+#contato {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgba(0,136,169,1);
+    transition: all 0.3s ease 0s;
+}
+#contato:hover{
+    background-color: rgba(0,136,169,0.8);
+    transform: scale(1.1); /*aumenta tamanho do botao*/
 }
 
-.foto__tesla{
-    border-radius: 50%;
-    margin: auto;
+#div1{
+    pposition: fixed;
+    pwidth: 100%;
+}
+#div2{
+    pmargin: 80px 0 0 0;
+}
+
+#fig_tesla{
+    height: 500px;
     display: block;
-    width: 50%;
-    /*outra forma de centralizar a imagem eh apenas utilizar text-align: center,
-    desde que a imagem esteja dentro de um div*/
-}
-.legenda{
-    position: relative;
-    text-align: center;
-    pborder: 1px solid #bbb;
-    background-color: #ddd;
-    padding: 1px;
-    border-radius: 7px;
-    margin: 0 5px 5px 5px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
-.linhaTempo{
+#fig_tesla_cap{
     text-align: center;
 }
 
-.topicos{
-    line-height: 1.4;
-}
-
-.cit_wiki {
+h2{
     text-align: center;
-    pborder: 1px solid;
+    padding: 30px
 }
 
-.coded-by{
+#frase1{
+    font-family: 'Shalimar', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
 
+#linha_tempo{
+    font-size: 45px;
+    padding: 5px 180px 25px 5px;
+    color: #aaa;
+}
+
+.sec1{
+    pbackground-color: purple;
+    pcolor: #0088a9;
+}
+
+.tab1{
+    pbackground-color: red;
+    border-spacing: 0; /*espaço entre th e td*/
+    pborder-collapse: separate;
+    margin-right: auto; /*centralizar a tabela sem div*/
+    margin-left: auto; /*centralizar a tabela sem div*/
+
+}
+
+.tab1 th{
+    background-color: white;
+    padding: 5px 30px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #ccc;
+}
+
+.tab1 td{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    line-height: 18px;
+    border-color: #ccc;
+    padding: 5px 30px;
+    background-color: #eee;
+}
+
+#frase2{
+    text-align: center;
+    padding: 30px 70px;
+    font-family: 'Shalimar', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#coded{
+    font-family: 'Shalimar', cursive;
+    font-size: 25px;
 }
